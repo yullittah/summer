@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-   <h1>hello</h1>
-   <footer>Coded by <a href="https://github.com/yullittah">Yullittah</a></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="weather-app">
+      <img src="src/when you need to know.png" width="100px" />
+      <header>
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="enter city...
+            "
+            required
+            class="search-form-input"
+            id="search-form-input"
+          />
+          <input type="submit" value="search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city" id="city"></h1>
+
+            <p class="weather-app-details">
+              <span id="time"></span>
+              <span id="description"> Scattered clouds</span
+              ><br />Humidity<strong>
+                <span id="humidity" class="humidity"> </span
+              ></strong>
+
+              Windspeed
+              <strong> <span class="speed" id="speed"> </span></strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="icon" div id="icon"></div>
+            <div class="weather-app-temperature-value" id="temperature"></div>
+            <div class="units">°C</div>
+          </div>
+        </div>
+      </main>
+
+  
+    </div>
+    <script src="src/java.js"></script>
+  </body>
+</html>
+
+   <footer>Coded by <a href="https://github.com/yullittah " target="_blank" rel="noopener noreferer">Yullittah</a>
+     hosted on <a href="https://github.com/yullittah/summer " target="_blank">Github </a> and website hosted on 
+     <a href="https://app.netlify.com/sites/summer-weather-app/configuration/general" target="_blank">Netlify</a></footer>
 </body>
 </html>
