@@ -1,9 +1,10 @@
 h1 {
   color: aqua;
+  font-weight: bold;
 }
 body {
   font-family: Josefin Sans;
-  background-color: rgba(68, 203, 236, 0.753);
+  background-color: rgba(68, 169, 236, 0.753);
 }
 .weather-app {
   border: 5px double rgb(7, 136, 171);
@@ -18,7 +19,7 @@ body {
   margin-top: 20px;
   text-align:center;
 }
-.weather-forecast-date{
+.weather-forecast-day{
   font-size: 16px;
   color: darkmagenta;
   opacity: 0.6;
@@ -56,6 +57,12 @@ header {
   width: 100px;
   height: 100px;
 }
+.weather-forecast-temperature-max{font-size: 13px;}
+.weather-forecast-temperature-min{font-size:13px ;
+opacity: 0.6;}
+.weather-forecast-date{font-size: 18px;
+color: blue;}
+
 .weather-app-temperature-value {
   font-size: 50px;
   max-width: 60px;
