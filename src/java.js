@@ -75,7 +75,7 @@ function displayForecast(){
 
 let forecastElement=document.querySelector("#forecast");
 
-let days= ["Tue", "Wed", "Thur", "Fri", "Sat"];
+let days= ["Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];
 
 let forecastHtml="";
 

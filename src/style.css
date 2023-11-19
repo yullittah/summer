@@ -18,8 +18,8 @@ body {
 .weather-forecast{
   margin-top: 20px;
   text-align:center;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  display: flex;
+  justify-content: space-between;
 }
 .weather-forecast-day{
   font-size: 16px;
