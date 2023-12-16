@@ -13,7 +13,7 @@ body {
 }
 .weather-app {
   border: 5px double rgb(7, 136, 171);
-  border-radius: 6px;
+  border-radius: 7px;
   background: whitesmoke;
   padding: 30px;
   margin: 50px auto;
